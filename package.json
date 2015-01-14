@@ -1,0 +1,36 @@
+{
+  "name": "MeanBlog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andela-oadebayo/blogapi.git"
+  },
+  "author": "Damilola Adebayo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andela-oadebayo/blogapi/issues"
+  },
+  "homepage": "https://github.com/andela-oadebayo/blogapi",
+  "dependencies": {
+    "bcrypt-nodejs": "latest",
+    "body-parser": "^1.10.1",
+    "connect-flash": "~0.1.1",
+    "cookie-parser": "~1.0.0",
+    "express": "^4.10.7",
+    "express-session": "~1.0.0",
+    "method-override": "~1.0.0",
+    "mongoose": "^3.8.21",
+    "morgan": "^1.5.1",
+    "passport": "~0.1.17",
+    "passport-facebook": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "passport-local": "~0.1.6",
+    "passport-twitter": "~1.0.2",
+    "jsonwebtoken" : "0.4.0"
+  }
+}
